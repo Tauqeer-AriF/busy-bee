@@ -21,6 +21,16 @@ body{
     font-weight: 500;
     font-style: normal;
 }
+
+#logo{
+    transition: width 2s, height 2s, transform 2s;
+}
+#logo:hover{
+    transform: rotateY(180deg);
+}
+
+
+
 .navbar,h1,h3{
     font-family: 'Poppins-Black';
 }
